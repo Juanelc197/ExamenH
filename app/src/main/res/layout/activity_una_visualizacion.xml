@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.juanelc197gmail.examenh.RegistroActivity">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registro Universitario "
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btn_nuevo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nuevo"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <Button
+        android:id="@+id/btn_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver universitarios registrados"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+</android.support.constraint.ConstraintLayout>

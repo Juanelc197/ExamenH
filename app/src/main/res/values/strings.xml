@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExamenH</string>
+    <string name="title_activity_visualizar">VisualizarActivity</string>
+    <string name="title_activity_una_visualizacion">UnaVisualizacionActivity</string>
+</resources>
